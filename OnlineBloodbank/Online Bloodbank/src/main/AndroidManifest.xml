@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sp.bookmarket">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/BookMarketAppTheme"
+        android:name=".BookMarketApplication">
+
+        <activity
+            android:name=".views.SplashView"
+            android:launchMode="singleInstance"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".views.LoginView"
+            android:launchMode="singleInstance"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"/>
+
+        <activity android:name=".views.SignupView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme"/>
+
+        <activity android:name=".views.TabView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme"/>
+
+        <activity android:name=".views.MyProfileView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.TabView" />
+        </activity>
+
+        <activity android:name=".views.EditMyProfileView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+        </activity>
+
+
+
+        <activity android:name=".views.PostAdView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.TabView" />
+        </activity>
+
+        <activity android:name=".views.MyPostView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.TabView" />
+        </activity>
+
+        <activity android:name=".views.MyPostDetailView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+        </activity>
+
+        <activity android:name=".views.RemovePostView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+        </activity>
+
+        <activity android:name=".views.ChangePasswordView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+        </activity>
+
+        <activity android:name=".views.AllPostDetailView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+        </activity>
+
+        <activity android:name=".views.AboutUsView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+        </activity>
+
+        <activity android:name=".views.HelpView"
+            android:launchMode="standard"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:theme="@style/Theme.MyAppTheme">
+        </activity>
+
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

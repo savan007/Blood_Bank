@@ -1,0 +1,51 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="47dp"
+    android:background="@color/actionbar_background"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_layout_home_button"
+        android:gravity="start">
+        <ImageButton
+            android:id="@+id/action_bar_home_button"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/back_button"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:background="@color/actionbar_background" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/action_bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/custom_actionbar_title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_layout_action_button"
+        android:gravity="end">
+        <ImageButton
+            android:id="@+id/action_bar_action_button"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:src="@drawable/action_done"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:background="@color/actionbar_background" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our market is facing a decline in growth over the past two years. This is attributed to the overall weak economy. Book store industry sales rose only 3.6% for last year whereas overall U.S. retail sales grew by 4.3%. However, management believes that this may be an advantage to the used bookstore industry. As customers cut back on purchasing, used bookstores will look more attractive to customers who still wish to purchase books. Therefore, management believes this may be a good time to get into the industry and gain market share."
+        android:textSize="18sp"
+        android:textColor="@color/title"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+</LinearLayout>

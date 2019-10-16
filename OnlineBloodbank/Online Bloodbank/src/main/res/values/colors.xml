@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <item name="white" type="color">#ffffff</item>
+
+    <!--<item name="background" type="color">#e0e0e0</item>-->
+    <item name="actionbar_background" type="color">#1383c2</item>
+    <item name="actionbar_background_1" type="color">#87cefa</item>
+    <string name="custom_actionbar_title">ActionBar</string>
+    <item name="title" type="color">#004b76</item>
+    <item name="bottom_bar" type="color">#ff8d00</item>
+    <item name="background" type="color">#e0e0e0</item>
+    <item name="text" type="color">#404041</item>
+    <item name="button_orange" type="color">#FF7802</item>
+    <item name="dark_blue" type="color">#2A66BE</item>
+    <item name="mobile" type="color">#004b76</item>
+    <item name="lightblue" type="color">#1B5E85</item>
+
+</resources>
+
+

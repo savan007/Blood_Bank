@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BookMarketAppTheme" parent="android:Theme.Light.NoTitleBar">
+    </style>
+
+    <style name="Theme.MyAppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/Theme.MyAppTheme.ActionBar</item>
+        <item name="actionBarSize">47dip</item>
+        <item name="android:actionBarSize">47dip</item>
+    </style>
+
+    <style name="Theme.MyAppTheme.ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:logo">@android:color/transparent</item>
+    </style>
+
+</resources>

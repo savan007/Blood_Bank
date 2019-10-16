@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_post_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/orange_curve_background">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:src="@drawable/logout" />
+        <TextView
+            android:id="@+id/post_ad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Post Ad"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_view_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/blue_curve_background"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:src="@drawable/action_done" />
+        <TextView
+            android:id="@+id/view_post"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="View Your Post"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout_remove_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/blue_curve_background"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:src="@drawable/action_content_clear" />
+        <TextView
+            android:id="@+id/remove_post"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Remove Your Post"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>

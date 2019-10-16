@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Book Market is a person-to-person Internet marketplace providing peoples with the opportunity to buy, sell and trade any books, participate in auctions, post classified ads and buy products for them self.  The Book Market's target market consists of over 15.8 million persons who spend $200 billion annually.  The Book Market was founded in July and is presently in its start-up stage."
+        android:textSize="18sp"
+        android:textColor="@color/title"
+        android:padding="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
